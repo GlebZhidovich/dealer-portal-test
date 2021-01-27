@@ -6,6 +6,8 @@ export const AppContext = createContext<any>({});
  * CONSTANTS
  */
 
+export const ICON_COLOR = '#ffffff';
+
 interface LANGUAGE_LABELS_INTERFACE {
     [key: string]: string;
 }
