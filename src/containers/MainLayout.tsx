@@ -28,7 +28,6 @@ const MainLayout: React.FunctionComponent<any> = props => {
   return (
     <Container>
       <NavigationAndContent>
-        {/* 
         <GlobalNavigation
           onClickHelp={()=> console.log('help')}
           onClickQuickSearch={()=> console.log('help')}
@@ -64,9 +63,8 @@ const MainLayout: React.FunctionComponent<any> = props => {
             to: ROUTES.siteProposals,
             iconName: 'documents',
           }]}
-          
+
         />
-        */}
         <Content>
           {props.children}
         </Content>
